@@ -1,0 +1,17 @@
+[package]
+name = "pyg-telesema"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow.workspace = true
+async-trait.workspace = true
+chrono.workspace = true
+futures-channel.workspace = true
+futures-util.workspace = true
+pyg.workspace = true
+telesema-core.workspace = true
+tokio.workspace = true
+
+[dev-dependencies]
+tokio.workspace = true
